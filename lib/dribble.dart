@@ -19,8 +19,11 @@ class _DribblePageState extends State<DribblePage> {
                 width: 400,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(38),
-                  color: Color.fromRGBO(195, 21, 41, 1),
-                  //(195,21,41)
+                   gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [
+                  Color.fromRGBO(253, 160, 114, 1),
+                  Color.fromRGBO(210, 43, 106, 1),
+                  Color.fromRGBO(138, 26, 87, 1),
+            ])
                 ),
                 child: Row(children: [
                   Row(

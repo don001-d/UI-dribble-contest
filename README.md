@@ -1,16 +1,7 @@
-# ui_dribble
+# ui_dribble-contest
 
-A new Flutter project.
+This flutter project is for UI design Contest by Youtube Channel CodeX @afzalali 
 
-## Getting Started
+![Ui contest](https://user-images.githubusercontent.com/62711835/131119216-390a7099-679e-4e3f-be08-ffe5a17272af.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This flutter app is to make a exact UI design like above dribble Project.

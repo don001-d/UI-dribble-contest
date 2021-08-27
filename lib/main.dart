@@ -108,8 +108,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: 400,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(38),
-                    color: Color.fromRGBO(195, 21, 41, 1),
-                    //(195,21,41)
+                gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [
+                  Color.fromRGBO(253, 160, 114, 1),
+                  Color.fromRGBO(210, 43, 106, 1),
+                  Color.fromRGBO(138, 26, 87, 1),
+                  ])),
                     boxShadow: [
                       BoxShadow(
                           color: Colors.black,
@@ -185,18 +188,25 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               ),
-            ),
+            
             SizedBox(
               height: 40,
             ),
             //behance
-            Container(
-              height: 254,
+            GestureDetector(
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DribblePage()));
+              },
+              child:Container(
+               height: 254,
               width: 400,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(38),
-                color: Color.fromRGBO(6, 44, 193, 1),
-                //(6,44,193)
+                 gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [
+                Color.fromRGBO(57, 209, 254, 1),
+                Color.fromRGBO(33, 115, 235, 1),
+                Color.fromRGBO(24, 60, 187, 1),])
               ),
               child: Column(
                 children: [
@@ -268,6 +278,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
             ),
+            )
           ],
         ),
       ),
